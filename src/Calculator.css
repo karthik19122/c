@@ -1,0 +1,60 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black; /* Change the background color to black */
+    height: 70vh; /* Set the calculator's height to the viewport height */
+    justify-content: space-between; /* Equal parts top and bottom */
+  }
+  
+  .display {
+    background: blue; /* Change the background color of the display to blue */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: blue; /* Change the background color of the input to blue */
+    color: black; /* Change the text color to black */
+    padding: 5px; /* Add padding for visual separation */
+  }
+  
+  .result {
+    font-size: 28px;
+    color: black;
+    margin-top: 10px;
+    background-color: blue; /* Add background color to the result area */
+    padding: 5px; /* Add padding for visual separation */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background: black; /* Change the background color of the buttons to black */
+    color: white; /* Change the text color to white */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black; /* Add background color to the button on hover */
+    transition: background-color 0.2s; /* Add a smooth transition on hover */
+  }
+  
+  button:hover {
+    background-color: #0074d9; /* Change the background color on hover */
+  }
+  
